@@ -15,3 +15,6 @@ RUN \
 RUN echo `apt-get update` 2>&1
 RUN apt-get install -y gcc-4.4-arm-linux-gnueabi g++-4.4-arm-linux-gnueabi
 
+# qemu installed
+RUN apt-get install -y qemu
+
